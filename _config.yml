@@ -2,7 +2,7 @@
 title: DCU BS Data Science DCU123
 email: 
 description: > # this means to ignore newlines until "baseurl:"
-Website for the DCU BS in Data Science
+  DCU BS Data Science
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "DataScienceDCU.github.io" # the base hostname & protocol for your site
 
@@ -10,11 +10,11 @@ url: "DataScienceDCU.github.io" # the base hostname & protocol for your site
 owner: DCU School of Computing
 email: 
 facebook_username:
-twitter_username:
-github_username:
+twitter_username: 
+github_username: DataScienceDCU
 address:
-  - line:
-  - line:
+  - line: School of Computing
+  - line: Dublin City University, Glasnevin, Dublin 9, Ireland
   # Feel free to add more lines here 
 telephone:
 copyright:
