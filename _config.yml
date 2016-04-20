@@ -18,7 +18,7 @@ address:
   - line: "Glasnevin, Dublin 9, Ireland"
   # Feel free to add more lines here 
 telephone: "+353-1-7008980" 
-copyright: "DCU School of Computing 2016"
+copyright: "DCU School of Computing"
 
 # API settings
 google_api_key:

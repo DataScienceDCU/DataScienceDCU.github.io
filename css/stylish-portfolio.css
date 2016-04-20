@@ -162,6 +162,10 @@ hr.small {
     -o-background-size: cover;
 }
 
+.header h1, .header h2 {
+    background-color: rgba(0,0,0,0.7);
+
+}
 /* About */
 
 .about {
