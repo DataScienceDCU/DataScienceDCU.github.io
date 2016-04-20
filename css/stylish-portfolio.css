@@ -162,8 +162,8 @@ hr.small {
     -o-background-size: cover;
 }
 
-.header h1, .header h2 {
-    background-color: rgba(0,0,0,0.7);
+.header h1, .header h3 {
+    background-color: rgba(255,255,255,0.3);
 
 }
 /* About */
