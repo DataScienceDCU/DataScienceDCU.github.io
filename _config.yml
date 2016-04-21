@@ -1,8 +1,8 @@
 # Site settings
-title: DCU BS Data Science DCU123
+title: DCU BSc Data Science DCU123
 email: marketing@computing.dcu.ie
 description: > # this means to ignore newlines until "baseurl:"
-  DCU BS Data Science
+  DCU BSc Data Science
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "DataScienceDCU.github.io" # the base hostname & protocol for your site
 
