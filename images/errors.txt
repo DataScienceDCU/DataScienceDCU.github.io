@@ -1,0 +1,4 @@
+[Thu May 05 2016 11:30:25 GMT+0100 (IST)] layer "    ": Expected Either a default asset specification or a layer asset specification but " " found.
+[Thu May 05 2016 11:30:25 GMT+0100 (IST)] layer "Find out more on dcu.ie": Unsupported extension: ie
+[Thu May 05 2016 11:30:25 GMT+0100 (IST)] layer "datascience.dcu.ie": Unsupported extension: ie
+[Thu May 05 2016 11:30:25 GMT+0100 (IST)] layer "Visit DCU.ie  >": Expected end of input but ">" found.

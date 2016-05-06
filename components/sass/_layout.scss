@@ -1,0 +1,187 @@
+//Header----------
+.topHeader {
+	background: $black;
+	color: $white;
+	@include clearfix;
+	vertical-align: bottom;
+	p {
+		font-size: .875rem;
+		line-height: 1rem;
+	}
+	.logo {
+		float: left;
+		width: 75%;
+		figure {
+			float: left;
+			margin-right: 10px;
+			vertical-align: bottom;
+			img {
+				vertical-align: bottom;
+				@include imagefill(81);
+			}//img
+		}//figure
+		.logoType {
+		padding-top: 10px;
+		}//logoType
+	}//logo
+	
+	.topLink {
+		text-align: right;
+		padding-right: 10px;
+		font-size: .875rem;
+		line-height: 1rem;
+		padding-top: 16px;
+		a, a:link, a:visited {
+			color: $white;
+			text-decoration: none;
+			&:hover {
+			color: $orange;
+			}//hover
+		}//a
+	}
+	
+}//header
+
+
+//Video ------------------
+
+.videoHolder {
+	position: relative;
+	text-align: center;
+	
+}
+
+
+
+
+
+
+//Greyback -----------------
+
+.greyBack {
+	background: $llgrey;
+	padding: 42px 0 82px 0;
+}
+
+
+
+//whiteback -----------------
+
+.whiteBack {
+	background: $white;
+	padding: 60px 0 60px 0;
+}
+
+
+//dGreyBack -----------------
+
+.dGreyBack {
+	background: $ddgrey;
+	padding: 60px 0 100px 0;
+}
+
+//lGreyBack -----------------
+
+.lGreyBack {
+	background: $dgrey;
+	padding: 60px 0 100px 0;
+}
+
+//orangeBack -----------------
+
+.orangeBack {
+	background: $orange;
+	padding: 40px 0;
+}
+
+
+
+
+
+
+//Main content -----------------
+
+.contentBlock {
+	article {
+		@include span(4 of 4);
+		@include breakpoint($medium) {
+		@include span(8 of 12);
+		padding-left: span(1 of 12 wide);
+		}//medium
+	}//article
+		aside {
+		@include span(4 of 4);
+		@include breakpoint($medium) {
+		@include span(4 of 12 last);
+		}//medium
+		}//aside
+		
+		.featureLinks {
+			@include span(4 of 4);
+			@include breakpoint($medium) {
+			@include span(12 of 12);
+			}//medium
+			@include clearfix;
+		}//featureLinks
+		@include clearfix;
+}//contentBlock
+
+
+
+
+//dataPara ----------------
+
+
+.data {
+	@include span(4 of 4);
+	@include breakpoint($medium) {
+	padding-left: span(1 of 12 wide);
+	@include span(10 of 12);
+	}//medium
+	@include clearfix;
+	article {
+		@include span(4 of 4);
+		@include breakpoint($medium) {
+		 @include span(9 of 9);
+		 padding-right: span(2 of 9 wide);
+		}//medium
+	}//article
+	
+}//data
+
+
+
+//tabs ----------------
+
+
+
+.contentTab {
+			//@include span(4 of 4);
+		//	@include breakpoint($medium) {
+		//	@include span(7 of 9);
+		//	}//medium
+		}
+
+
+
+//footer ----------------
+ footer {
+	 	.social {
+		@include span(4 of 4);
+		@include breakpoint($medium) {
+		@include span(3 of 12 last);
+		}//medium
+	}//social
+	
+	.contactInfo {
+		@include span(4 of 4);
+		@include breakpoint($medium) {
+			@include span(9 of 12);
+				padding-left: span(1 of 12 wide);
+		}//medium
+	}//contactInfo
+	
+	
+ }//footer
+
+
